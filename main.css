@@ -7,6 +7,7 @@
 header{
 	display: flex;
 	height: 100px;
+	background-color: darkslateblue;
 }
 header h1{
 font-family: gautreaux, sans-serif;
@@ -14,7 +15,6 @@ font-family: gautreaux, sans-serif;
     font-style: normal;
 	font-size: 40px;
 	text-align: center;
-	background-color: darkslateblue;
 	width: 100%;
 }
 .flex-container {
