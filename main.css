@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+#container{ 
+  width:1020px;
+  margin:0 auto;
+}
+header{
+	display: flex;
+	height: 100px;
+}
+header h1{
+font-family: gautreaux, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 40px;
+	text-align: center;
+	background-color: darkslateblue;
+	width: 100%;
+}
+.flex-container {
+   display: flex;
+   align-items: stretch;
+   height: 600px;
+   flex-direction: column;
+		
+}
+.flex-container > div{
+  background-color:darkgrey;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px
+	
+}
+footer{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+}
+footer h1{
+  font-family: gautreaux, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+}
